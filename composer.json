@@ -1,0 +1,30 @@
+{
+    "name": "invoke/browser",
+    "description": "A small class to detect the browser and the operating system",
+    "keywords": [
+        "php",
+        "useragent",
+        "agent",
+        "sniff",
+        "browser",
+        "os",
+        "platform"
+    ],
+    "license": "MIT",
+    "authors": [{
+        "name": "Invoke Media",
+        "email": "dev@invokemedia.com"
+    }],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Invoke\\Browser\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
