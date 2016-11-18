@@ -1,7 +1,5 @@
-# Browser
-
-Browser Class
-=============
+Browser
+========
 
 A very simple class that takes in a user agent string and returns the browser name (Firefox, Chrome, Opera, etc.) and also the Operating System (Mac, Windows, Android, etc.).
 
